@@ -1,7 +1,9 @@
 # TrueNAS 실행 파일 만들기 
 하드웨어 정보 
 Server : HPE ProLiant Gen8 DL360 
-ip : 192.168.0.33
+Drive : HDD 128GB * 8EA 
+Raid : Raid5 (3EA) Boot Drive / Raid5 (5EA) Storage Drive 
+TrueNAS ip : 192.168.0.33
 
 ## 1. Server에 ISO파일 Mount하기
 
@@ -39,27 +41,27 @@ ip : 192.168.0.33
 
 <img width="588" height="819" alt="image" src="https://github.com/user-attachments/assets/51a7f56d-85b8-41d0-b34e-d96e9eb24b05" />
 **Identifier and Type **
-Name : 인증서 사용할 이름 
-Type : Internal CA
-Profile : 빈칸 
+1. Name : 인증서 사용할 이름 
+2. Type : Internal CA
+3. Profile : 빈칸 
 
 **Certificate Options**
-Key Type : RSA
-Key Length : 2048 
-Digest Algorithm : SHA256
-Life time : 3650 (10년)
+1. Key Type : RSA
+2. Key Length : 2048 
+3. Digest Algorithm : SHA256
+4. Life time : 3650 (10년)
 
 ### 3. Certificates -> Add 
-Name : 사용할 이름 
-Type : Internal Certificate 
-Profile : RSA 
+1. Name : 사용할 이름 
+2. Type : Internal Certificate 
+3. Profile : RSA 
 
 **Certificate Options**
-Signing Certificate Authority : 2번에서 만들었던 인증서 선택 
-Key Type : RSA 
-Key Length : 2048
-Digest Algorithm : SHA256
-Life time : 3650
+1. Signing Certificate Authority : 2번에서 만들었던 인증서 선택 
+2. Key Type : RSA 
+3. Key Length : 2048
+4. Digest Algorithm : SHA256
+5. Life time : 3650
 
 ### 4. Language Set
 System -> General Settings -> Localization
