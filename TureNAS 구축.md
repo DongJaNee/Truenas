@@ -60,3 +60,79 @@ Key Type : RSA
 Key Length : 2048
 Digest Algorithm : SHA256
 Life time : 3650
+
+### 4. Language Set
+System -> General Settings -> Localization
+
+<img width="1915" height="897" alt="image" src="https://github.com/user-attachments/assets/1f2980b0-eade-480c-b246-8e5c36f98d5f" />
+
+### 5. Pool Create
+<img width="1612" height="823" alt="image" src="https://github.com/user-attachments/assets/59161bc6-af2b-414a-ba9e-51c4b85ea85e" />
+
+1. General Info 에서 Pool Name을 설정
+
+2. Data에서 사용할 Raid, Disk 설정
+
+<img width="960" height="843" alt="image" src="https://github.com/user-attachments/assets/ad91839f-1267-4a38-b337-e3f63c214e7a" />
+
+3. Create Pool 
+
+### 6. Datasets
+Datasets에서 Pool의 디렉터리 파일 생성 
+
+<img width="1447" height="846" alt="image" src="https://github.com/user-attachments/assets/2980da1c-ffbb-4df7-bdc4-03575d535823" />
+
+Name : 사용할 디렉터리의 이름 
+<img width="997" height="845" alt="image" src="https://github.com/user-attachments/assets/7daeb63c-8efc-4084-93b0-521c3401bb51" />
+
+고급옵션 - ACL 유형 : SMB / NFSv4 (모바일 접속 가능 ※ CX파일탐색기 APP 다운로드 받아야함) 
+
+<img width="997" height="848" alt="image" src="https://github.com/user-attachments/assets/091391d3-2b18-4060-b9d8-2f19b521b0e4" />
+
+### 7. User / Group Add 
+Credentials -> Users / Groups -> Add
+
+<img width="1919" height="857" alt="image" src="https://github.com/user-attachments/assets/3ac7504f-13af-4409-a64a-26757a0ef682" />
+
+Username / password 설정 
+
+<img width="986" height="843" alt="image" src="https://github.com/user-attachments/assets/d99328ba-b569-4007-a30e-32f61be57abf" />
+
+1. Datasets에서 만들었던 디렉터리를 자신이 사용할 home 디렉터리로 지정 
+2. Permissions 설정 
+3. Primary Group 설정 
+4. Save 
+
+<img width="996" height="830" alt="image" src="https://github.com/user-attachments/assets/9589d758-082d-4873-8914-45a204bbe8d1" />
+
+### 8. Windows(SMB) Shares
+Shares -> SMB Shares Add 
+
+추가할 SMB 디렉터리 지정 
+Name 설정 
+<img width="598" height="835" alt="image" src="https://github.com/user-attachments/assets/a9141a24-074b-4c83-b907-f3e95f4cbf31" />
+
+Purpose : Multi-Protocol (NFSv4/SMB) Shares     //모바일로 볼 수 있게 사용하기위함 
+
+<img width="602" height="835" alt="image" src="https://github.com/user-attachments/assets/33479ff7-ad41-44dc-a1d9-7700f0fdc053" />
+
+### 9. Webdav download
+App -> Discover Apps -> Webdav 검색 후 Download 
+
+<img width="1917" height="905" alt="image" src="https://github.com/user-attachments/assets/62b4f640-9b0b-4849-a2a8-139504a29a8e" />
+
+#### Webdav 설정 
+User and Group Configuration (권한 설정)
+
+<img width="477" height="316" alt="image" src="https://github.com/user-attachments/assets/8bc0d873-6205-4398-a265-93a3bcee1c37" />
+
+Network Configuration (사용할 Port 설정)
+
+<img width="819" height="712" alt="image" src="https://github.com/user-attachments/assets/2c4e3157-c990-4728-ab20-2691a63bcf67" />
+
+Storage Configuration 
+Share Name : 모바일에서 접속할 파일 이름 ex) Share Name : arkarkark  -----> 121.165.211.174/arkarkark 이런식으로 접속
+HostPath : 공유할 디렉터리 설정 
+
+<img width="777" height="840" alt="image" src="https://github.com/user-attachments/assets/51033e89-059b-42b0-8209-227eff2a425d" />
+
