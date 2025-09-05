@@ -51,7 +51,7 @@ Datasets에서 Pool의 디렉터리 파일 생성
 Name : 사용할 디렉터리의 이름 
 <img width="997" height="845" alt="image" src="https://github.com/user-attachments/assets/7daeb63c-8efc-4084-93b0-521c3401bb51" />
 
-고급옵션 - ACL 유형 : SMB / NFSv4 (모바일 접속 가능 ※ CX파일탐색기 APP 다운로드 받아야함) 
+고급옵션 - ACL 유형 : SMB / NFSv4  // SMB 프로토콜을 사용함으로서, window의 drive와 통신 가능
 
 <img width="997" height="848" alt="image" src="https://github.com/user-attachments/assets/091391d3-2b18-4060-b9d8-2f19b521b0e4" />
 
@@ -88,6 +88,8 @@ App -> Discover Apps -> Webdav 검색 후 Download
 <img width="1917" height="905" alt="image" src="https://github.com/user-attachments/assets/62b4f640-9b0b-4849-a2a8-139504a29a8e" />
 
 ### Webdav 설정 
+- 모바일 접속 가능 ※ CX파일탐색기 APP 다운로드 받아야함
+  
 User and Group Configuration (권한 설정)
 
 <img width="477" height="316" alt="image" src="https://github.com/user-attachments/assets/8bc0d873-6205-4398-a265-93a3bcee1c37" />
