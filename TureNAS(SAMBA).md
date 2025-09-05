@@ -76,6 +76,7 @@ Shares -> SMB Shares Add
 
 추가할 SMB 디렉터리 지정 
 Name 설정 
+
 <img width="598" height="835" alt="image" src="https://github.com/user-attachments/assets/a9141a24-074b-4c83-b907-f3e95f4cbf31" />
 
 Purpose : Multi-Protocol (NFSv4/SMB) Shares     //모바일로 볼 수 있게 사용하기위함 
